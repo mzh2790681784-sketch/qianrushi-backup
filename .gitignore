@@ -1,0 +1,44 @@
+# ===== 排除：压缩包 =====
+*.rar
+*.zip
+*.7z
+*.tar
+*.tgz
+*.tar.gz
+*.gz
+
+# ===== 排除：Keil MDK / STM32 CubeIDE / Eclipse 构建产物 =====
+*.o
+*.obj
+*.lst
+*.hex
+*.axf
+*.map
+*.crf
+*.d
+*.dep
+*.bak
+*.iex
+*.lnp
+*.plg
+*.sct
+*.tra
+*.elf
+build/
+Debug/
+Release/
+Objects/
+Listings/
+output/
+.settings/
+.metadata/
+.dep/
+*.launch
+JLinkLog.txt
+
+# ===== 排除：教程类 PPT（非题目，且单文件超 GitHub 100MB 限制）=====
+*.pptx
+
+# ===== 排除：工具安装包（非题目工程文件，且单文件超 GitHub 100MB 限制）=====
+*.exe
+Tools/
